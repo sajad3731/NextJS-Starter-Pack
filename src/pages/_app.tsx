@@ -7,14 +7,14 @@ import Template from "templates/Template";
 import { ToastContainer } from "react-toastify";
 import { useStore } from "app/store";
 import { persistStore } from "redux-persist";
-import "react-toastify/dist/ReactToastify.min.css";
-import "@assets/styles/globals.css";
 import { Provider } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
 import Loading from "@atoms/Loading";
 import { CacheProvider } from "@emotion/react";
 import createEmotionCache from "createEmotionCache";
 import { Theme } from "@mui/system";
+import "react-toastify/dist/ReactToastify.min.css";
+import "@assets/styles/globals.css";
 
 export const APP_VERSION = "1.0.0";
 
@@ -46,7 +46,7 @@ const App = ({ Component, pageProps }: AppProps) => {
       result = {
         ...theme,
         typography: {
-          fontFamily: ["iransansxv", "iransansx", "tahoma"],
+          fontFamily: ["iransansxv", "tahoma"],
         },
         direction,
       };

@@ -10,10 +10,7 @@ export default class MyDocument extends Document {
       <Html lang={this.props.locale}>
         <Head>
           <meta name="theme-color" content={theme.palette.primary.main} />
-          <meta
-            name="description"
-            content={this.props.locale === "fa" ? "شرکت امین" : "Amin Company"}
-          />
+          <meta name="description" content="" />
         </Head>
         <body>
           <Main />
