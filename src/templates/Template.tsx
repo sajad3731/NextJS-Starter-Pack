@@ -1,7 +1,7 @@
 import { FC } from "react";
 
 const Template: FC = ({ children }) => {
-  return <div>{children}سلام</div>;
+  return <div>{children}</div>;
 };
 
 export default Template;
