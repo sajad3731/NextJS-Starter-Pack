@@ -10,7 +10,7 @@
 /* iransans version 7.7 */
 /* release date 1400/08/18 */
 
-@font-face {
+/* @font-face {
   font-family: iransansx;
   src: url("/fonts/staticfonts/iransansx-regular.woff") format("woff");
 }
@@ -18,7 +18,7 @@
   font-family: iransansx;
   src: url("/fonts/staticfonts/iransansx-bold.woff") format("woff");
   font-weight: 700;
-}
+} */
 
 html {
   height: 100%;
@@ -70,37 +70,40 @@ html::-webkit-scrollbar-thumb:hover {
   visibility: visible;
 }
 
-.fa-font-family body {
+/* .fa-font-family body {
   font-family: iransansx, tahoma;
-}
+} */
 
 .fa-font-family {
+  font-family: "iransansxv", tahoma;
   -moz-font-feature-settings: "ss02";
   -webkit-font-feature-settings: "ss02";
   font-feature-settings: "ss02";
-  @supports (font-variation-settings: normal) {
+  /* @supports (font-variation-settings: normal) {
     body {
       font-family: "iransansxv", tahoma;
     }
-  }
+  } */
 }
 
 .fa-font-family .Toastify__toast-body {
-  font-family: iransansx, tahoma;
+  font-family: "iransansxv", tahoma;
+  /* font-family: iransansx, tahoma; */
   -moz-font-feature-settings: "ss02";
   -webkit-font-feature-settings: "ss02";
   font-feature-settings: "ss02";
-  @supports (font-variation-settings: normal) {
+  /* @supports (font-variation-settings: normal) {
     font-family: "iransansxv", tahoma;
-  }
+  } */
 }
 
 .fa-font-family textarea {
-  font-family: iransansx, tahoma;
+  font-family: "iransansxv", tahoma;
+  /* font-family: iransansx, tahoma; */
   -moz-font-feature-settings: "ss02";
   -webkit-font-feature-settings: "ss02";
   font-feature-settings: "ss02";
-  @supports (font-variation-settings: normal) {
+  /* @supports (font-variation-settings: normal) {
     font-family: "iransansxv", tahoma;
-  }
+  } */
 }
